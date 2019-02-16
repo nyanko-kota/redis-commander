@@ -5,7 +5,7 @@ version: '3'
 services:
     redis-commander:
       container_name: "redis-commander"
-      image: nyankokota/redis-commander
+      image: nyankokota/redis-commander:latest
       links:
           - redis:redis
       ports:

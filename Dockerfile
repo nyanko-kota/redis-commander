@@ -7,3 +7,5 @@ RUN npm install -g redis-commander
 ENTRYPOINT ["redis-commander"]
 
 EXPOSE 8080
+
+CMD [ "redis", "--redis-host", "--port 8080"]

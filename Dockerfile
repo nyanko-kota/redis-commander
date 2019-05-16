@@ -8,4 +8,4 @@ ENTRYPOINT ["redis-commander"]
 
 EXPOSE 8080
 
-CMD [ "--redis-host redis" "--port 8080"]
+CMD [ "--redis-host", "redis", "--port", "8080" ]
